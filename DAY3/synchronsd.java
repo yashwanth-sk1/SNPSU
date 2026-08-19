@@ -2,7 +2,7 @@ package DAY3;
 import java.util.Iterator;
 
 class Bank {
-
+	
     synchronized void withdraw(int amount) {
         System.out.println("Withdrawing " + amount);
         try {
